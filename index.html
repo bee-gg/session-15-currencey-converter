@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer async></script>
+</head>
+<body> 
+    <h1>Currency Converter</h1>
+
+    <section class="wrapper">
+        
+        <div class="gbp title">
+            <img src="images/flaggb.png" alt="great britain flag" width=50px>
+            <label for="gbpounds">GBP - British Pounds </label> 
+        </div>
+
+        <input type="number" name="gbpounds" id="gbpounds"> 
+        <button id="submit" type="button">Convert</button>
+   
+        <div class="euro title">
+           <img src="images/euflag.png" alt="european union flag" width=55px> EUR - Euro
+        </div> 
+
+        <span id="result"></span>
+        
+    </section>
+</body>
+</html>
